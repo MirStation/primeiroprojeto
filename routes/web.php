@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/saudacao/ola', function () {
-    return view('SaudacaoController@ola');
+// Página de saudação
+Route::get('/saudacao', function () {
+    return view('saudacao');
 });
